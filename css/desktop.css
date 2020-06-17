@@ -1,0 +1,165 @@
+/* 
+Acámica
+Carrera: Desarrollo Web Full Stack
+Trabajo: Proyecto "Podcast Channel"
+Nombre: Uladislao Pérez Elizalde  
+*/
+
+@media screen and (min-width:1024px) {
+
+    /* Encabezado (logo y menu) */
+    .head {
+        height: 80px; 
+        display: flex; 
+        align-items: center;}
+
+    .label {
+        display: none; }
+
+    .logo {
+        width: 36px;
+        height: 36px; 
+        margin-left: 30px;
+        margin-top: 0px;}
+
+    .menu {
+        position: relative; 
+        width: 80%;
+        transition: none;
+        margin-left: 0%;
+        text-align: end; 
+        background-color: white; }
+
+    .li {
+        border-bottom: none; 
+        display: inline-block;
+        padding-left: 33px;
+        padding-right: 33px; }
+
+    .a {
+        color: black; }
+    /* Encabezado (logo y menu) */
+
+
+
+    /* Primera sección */
+    .bloque-inicio {
+        width: 70%; 
+        margin-bottom: 190px;}
+
+    .h1 {
+        font-size: 64px;
+        margin-top: 150px; }
+
+    .intro {
+        font-size: 16px;
+        line-height: 24px;
+        width: 500px;
+        margin-left: 0px; }
+
+    .boton {
+        width: 226px;
+        height: 56px;
+        font-size: 18px;
+        margin-top: 56px;
+        margin-bottom: 5px;
+        float: left; }
+    /* Primera sección */
+
+
+
+    /* Segunda sección (Episodios) */
+    .titulo-episodios {
+        width: 70%; 
+        padding-top: 90px; }
+
+    .iframes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 20px;
+        padding-bottom: 150px; }
+
+    .ifr {
+        margin: 35px 0px;
+        padding: 0 35px; }
+    /* Segunda sección (Episodios) */
+
+
+
+    /* Tercera sección (Ddv) */
+    .titulo-invitados {
+        width: 70%; }
+
+    .bloque-ddv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        width: 50%; }
+
+    .phone {
+        width: 458px;
+        height: 660px; }
+
+    .ddv {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px; }
+
+    .titulo-ddv {
+        margin-top: 21px; }
+    /* Tercera sección (Ddv) */
+
+
+
+    /* Cuarta sección (Invitados) */
+    .fotos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr; 
+        width: 100%;}
+
+    .grace {
+        width: 100%;
+        height: 400px; }
+    /* Cuarta sección (Invitados) */
+
+
+
+    /* Quinta sección (Temas) */
+    .bloque-temas {
+        width: 70%; }
+
+    .ich3 {
+        width: 220px; }
+
+    .iconos {
+        display: flex;
+        flex-direction: row; }
+    /* Quinta sección (Temas) */
+
+
+
+    /* Sexta sección (Final) */
+    .titulo-final {
+        margin-top: 60px;
+        width: 692px; }
+
+    .boton2 {
+         width: 345px; }
+    /* Sexta sección (Final) */
+
+
+
+    /* Pié de página */
+    .footer {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        height: 70px; }
+    
+    .social-media {
+        margin-top: 10px; }
+    /* Pié de página */
+
+}
